@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cozy Mountain Resort | Contact</title>
+        <meta name="author" content="Kelsye Pulice">
+        <meta name="description" content="Contact us to book now to have the time of your life at the Cozy Mountain Resort">
+
+        <!--Favicon-->
+        <link rel="icon" href="images/favicon1.ico" type="image/x-icon">
+
+        <!--Google Fonts Links-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+
+        <!--stylesheet-->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+        <header id="links">
+            <img src="images/swiss-valley.jpg" alt="beautiful picture of a sunny day, a mountain, and green trees" width="1440" height="560">
+            <h1><a href="index.html">Cozy Mountain Resort</a></h1>
+            <nav>
+                <ul>
+                    <li><a href= index.html>Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>    
+        </header>
+
+        <main>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <div>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a<span class="required">*</span></p>
+                </div>
+                <img src="images/swiss-sunset.jpg" alt="beautiful sunset with mountains in the background and a lake in front" width="710" height="270">
+            </section>
+
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+
+                <div class="grid">
+                <label for="my-name">Full Name*</label>
+                <input type="text" name="my-name" id="my-name" required>
+               
+                <label for="my-email">Email address*</label>
+                <input type="text" name="my-email" id="my-email" required>
+                
+                <label for="my-phone">Phone Number*</label>
+                <input type="text" name="my-phone" id="my-phone" required>
+                </div>
+          
+                <div class="field">
+                <fieldset>
+                    <legend>Preferred Contact Method*</legend>
+
+                    <input type="radio" name="contact-pref" id="pref-email" checked>
+                    <label for="pref-email">Email</label>
+
+                    <input type="radio" name="contact-pref" id="pref-phone">
+                    <label for="pref-phone">Phone</label>
+                </fieldset>
+           
+                    <label for="my-comments">Comments*</label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div>
+                <p>Copyright &copy;2023 - Cozy Mountain Resort</p>
+                <p>This site is for educational purposes only.</p>
+            </div>
+        </footer>
+    </body>
+</html>
